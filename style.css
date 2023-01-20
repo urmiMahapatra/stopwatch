@@ -1,0 +1,83 @@
+
+
+body{
+    display: flex;
+    align-items:center ;
+    height: 100vh;
+    justify-content: center;
+
+    font-size: 400%;
+    background-color: beige;
+
+    font-family:  'Fira sans', sans-serif;
+
+}
+#heading{
+    text-align: center;
+    margin-top: 2rem;
+
+    font-size: 3rem;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif ;
+    border-bottom: 5px solid rgb(15, 15, 15);
+    color: brown;
+}
+.frame{
+
+user-select: none;
+}
+.frame .watch{
+    height: 100px;
+
+    background-color: rgb(237, 147, 147);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius:5px;
+    box-shadow: 20px 20px 20px rosybrown;
+    padding: 0 10px;
+
+}.frame .watch span{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+.watch span.colon{
+    width: 10px;
+    
+}
+.frame .watch span.ms-colon,
+.frame .watch span.milisecond{
+    color:blue;
+    text-align: center;
+    
+}
+.frame .buttons{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.buttons button{
+    padding: 2% 6%;
+    outline: none;
+    border: none;
+    background-color: brown;;
+    margin: 0 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius:5px;
+    cursor:pointer ;
+
+}
+.buttons button.active,
+.buttons button.stopActive
+{
+
+    cursor:not-allowed;
+    opacity: 0.8;
+
+}
