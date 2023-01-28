@@ -1,4 +1,4 @@
-# [Stopwatch](https://02abhishekchoudhary.github.io/Stopwatch)
+# [Stopwatch](https://urmimahapatra.github.io/stopwatch/)
 
 # About
 This is  project. I used HTML, CSS, & JavaScript for the project
